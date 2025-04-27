@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import joblib
 
-st.title("🎈 코랩에서 만드는 나만의 대시보드")
+st.title("🎈 나만의 데이터 시각화 대시보드!")
 
 # 1. 데이터 업로드
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요.", type=["csv"])
