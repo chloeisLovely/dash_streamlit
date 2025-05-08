@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 
 st.set_page_config(layout="wide")
-st.title("🎈 문자형 컬럼도 포함한 나만의 ML 대시보드!")
+st.title("🎈나만의 시각화 ML 대시보드!")
 
 # 1. 데이터 업로드
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요.", type=["csv"])
